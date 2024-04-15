@@ -1,8 +1,8 @@
-class Brackets{
+class Stack{
     int top;
     int size;
     int stack[];
-    Brackets(int num){
+    Stack(int num){
         stack = new int[num];
         top = -1;
         size = num;
